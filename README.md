@@ -21,11 +21,17 @@ Copy
 Edit
 fashion-recommender-system/
 ├── app.py          # Streamlit app for user interaction
+
 ├── main.py         # Script to generate embeddings from dataset
+
 ├── test.py         # Script to test recommendations for a sample image
+
 ├── embeddings.pkl  # Precomputed feature embeddings
+
 ├── filenames.pkl   # Corresponding image filenames
+
 ├── sample/         # Directory containing sample images
+
 └── README.md       # Project documentation
 🚀 Getting Started
 Prerequisites
