@@ -6,6 +6,8 @@ A deep learning-based fashion recommendation system that suggests visually simil
 📌 Overview
 This project leverages a pre-trained ResNet50 model to extract feature embeddings from clothing images. By employing the K-Nearest Neighbors algorithm, it identifies and recommends fashion items that are visually similar to a given input image.
 
+Dataset : https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
+
 🧠 How It Works
 Feature Extraction: Utilizes ResNet50 (excluding the top classification layer) combined with Global Max Pooling to extract 2048-dimensional feature vectors from images.
 
