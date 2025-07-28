@@ -53,41 +53,30 @@ streamlit
 
 Install the dependencies using pip:
 
-bash
-Copy
-Edit
+
 pip install tensorflow numpy opencv-python scikit-learn streamlit
 Running the Application
 Generate Embeddings (if not already available):
 
-bash
-Copy
-Edit
+
 python main.py
 This script processes the dataset images, extracts features using ResNet50, and saves the embeddings and filenames.
 
 Test Recommendations for a Sample Image:
 
-bash
-Copy
-Edit
+
 python test.py
 This script loads a sample image, computes its embedding, and displays the top 5 similar images from the dataset.
 
 Launch the Streamlit App:
 
-bash
-Copy
-Edit
+
 streamlit run app.py
 This will open a web interface where you can upload an image and view recommended fashion items.
 
 🧪 Example
 Suppose you have a sample image sample/shirt.jpg. Running test.py will output the indices of the top 5 similar images:
 
-bash
-Copy
-Edit
 [10 23 45 67 89]
 These indices correspond to the most visually similar items in the dataset.
 
